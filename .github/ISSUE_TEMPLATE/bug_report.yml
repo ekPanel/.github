@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in ekPanel does not work as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Security problems go through private reporting, not here.
+        Please remove passwords, keys and domain names you want to keep private.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to …
+        2. Click …
+        3. See …
+  - type: input
+    id: version
+    attributes:
+      label: ekPanel version
+      description: Run `ekpanel version` on the panel server.
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Server operating system
+      placeholder: Ubuntu 24.04
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: From `journalctl -u ekpanel -u ekpanel-agent --since "10 min ago"`.
+      render: text
