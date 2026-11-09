@@ -4,5 +4,5 @@ contact_links:
     url: https://ekpanel.github.io/ekPanel-docs/
     about: Installing, every feature, troubleshooting and a FAQ, in English and বাংলা.
   - name: Report a security problem
-    url: https://github.com/ekPanel/.github/blob/main/SECURITY.md
+    url: https://github.com/ekPanel/.github/blob/HEAD/SECURITY.md
     about: Please report vulnerabilities privately, never in a public issue.

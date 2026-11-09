@@ -35,6 +35,6 @@ in one modern panel that speaks your language. **ek** (এক) is Bangla for "on
 
 **Want to help?** Code, translations, docs and testing are all welcome: start with the
 [contributor guide](https://ekpanel.github.io/ekPanel-docs/development/contributing/) and the
-[code of conduct](https://github.com/ekPanel/.github/blob/main/CODE_OF_CONDUCT.md).
+[code of conduct](https://github.com/ekPanel/.github/blob/HEAD/CODE_OF_CONDUCT.md).
 
 Made in Bangladesh 🇧🇩, for everyone.

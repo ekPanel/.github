@@ -1,4 +1,4 @@
-<!-- In the main repository, pull requests go to the dev branch; prod changes only through a
+<!-- In every ekPanel repository, pull requests go to the dev branch; pub changes only through a
 pull request from dev. See CONTRIBUTING.md in the repository. -->
 
 ## What and why
