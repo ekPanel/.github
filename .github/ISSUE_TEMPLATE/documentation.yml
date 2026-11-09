@@ -1,0 +1,17 @@
+name: Documentation
+description: Something in the docs is wrong, missing or hard to follow. ডকুমেন্টেশনে ভুল বা ঘাটতি।
+labels: [documentation]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The address of the page, if it is about one.
+      placeholder: https://ekpanel.github.io/ekPanel-docs/start/install/
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong or missing?
+      description: What you tried to do, and where the docs did not help.
+    validations:
+      required: true
